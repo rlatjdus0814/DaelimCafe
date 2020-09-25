@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  body {
+    font-family: "NanumSquare", Arial, Helvetica, sans-serif;
+  }
+  .bar1{
+    background-color: #d9e1e5;
+    height: 5px;
+    width: 1980px;
+  }
+  .bar2{
+    background-color: #f2f2f2;
+    height: 1px;
+    width: 1980px;
+  }
+  .bar3{
+      background-color: #e7e7e7;
+      height: 1px;
+      width:  420px;
+  }
+  
+  .bar4 {
+    background-color: #5b5b5b;
+    height: 1px;
+    width: 1980px;
+  }
+  .top, .top, .banner, .wrap, .join, .footer {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  /*top*/
+  .top {
+    height: 60px;
+    line-height: 60px;
+    font-size: 14px;
+  }
+  .top-name{
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: -1px;
+  }
+  .top-name a{
+    color: #333;
+  }
+
+  /*content*/
+  .content{
+      background-color: #f1f6fa;
+      height: 950px;
+      padding-top: 50px;
+  }
+  .join{
+    margin-top: 60px;
+    width: 420px;
+    height:790px;
+    background-color: #fff;
+    box-shadow: 3px 2px 20px #e7e7e7;
+  }
+  .join-title{
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+  }
+  .join-box{
+    margin-top: 50px;
+  }
+  .join-box p{
+    font-size: 17px;
+    margin:0 0 3px 63px;
+  }
+  .box-join{
+    text-align: center;
+  }
+  .box-join input{
+    height: 45px;
+    width: 280px;
+    margin-bottom: 25px;
+    border: 1px solid #d9e1e5;
+    background-color: #fafafa;
+    color: #333;
+  }
+  .box-join input[type="text"],
+  .box-join input[type="password"]
+  {
+    padding-left: 13px;
+  }
+  .join-joinbtn{
+    background-color: #5b5b5b;
+    width: 210px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  .join-joinbtn:hover{
+    background-color: #7e7e7e;
+    transition: .5s;
+  }
+  .join-joinbtn a{
+    color: #fff;
+    font-weight: 300;
+  }
+  .join-cancelbtn{
+    border: 1px solid #5b5b5b;
+    width: 210px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .join-cancelbtn a{
+    color: #5b5b5b;
+    font-weight: 300;
+  }
+
+  /*footer*/
+
+.footer-cafename{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 30px 5px;
+  }
+ 

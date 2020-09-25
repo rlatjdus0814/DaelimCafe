@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body {
+  font-family: "NanumSquare", Arial, Helvetica, sans-serif;
+}
+.bar1, .bar3 {
+  background-color: #d9e1e5;
+  height: 5px;
+  width: 1980px;
+}
+.bar2 {
+  background-color: #f2f2f2;
+  height: 1px;
+  width: 1980px;
+}
+.bar4 {
+  background-color: #5b5b5b;
+  height: 1px;
+  width: 1980px;
+}
+.top, .top, .banner, .wrap, .container, .footer {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/*top*/
+.top {
+  text-align: right;
+  height: 60px;
+  font-size: 14px;
+}
+.top-join, .top-login {
+  width: 75px;
+  height: 27px;
+  line-height: 27px;
+  text-align: center;
+  margin: 15px 5px;
+  cursor: pointer;
+}
+.top-login {
+  display: inline-block;
+  background-color: #5b5b5b;
+  border-radius: 50px;
+}
+.top-login a {
+  color: #fff;
+}
+.top-join {
+  display: inline-block;
+  border: 1px solid #5b5b5b;
+  border-radius: 50px;
+  color: #5b5b5b;
+}
+.top-join a {
+  color: #5b5b5b;
+}
+.banner {
+  background: url(../src/banner.jpg);
+  height: 240px;
+}
+.banner-text {
+  font-size: 53px;
+  font-weight: 700;
+  color: #e8edf0;
+  line-height: 240px;
+  padding-left: 40px;
+  text-shadow: 4px 4px 7px #5b5b5b;
+}
+
+.container{
+  display: flex;
+}
+/*sidebar*/
+.sidebar{
+  display: inline-block;
+  width: 200px;
+  margin-top: 20px;
+}
+.sidebar-Bar1, .sidebar-Bar2, .sidebar-Bar3, .sidebar-Bar4{
+  border: 1px solid #5a5a5a;
+}
+.sidebar-bar1, .sidebar-bar2, .sidebar-bar3{
+  background-color: #e5e5e5;
+  height: 1px;
+}
+.user{
+  margin: 0 auto;
+}
+.user-pic{
+  width: 75px;
+  height: 75px;
+  border-radius: 25px;
+  background-color: #f2f2f2;
+  margin: 30px 65px;
+}
+.user-id{
+  font-size: 17px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.sidebar-writebtn{
+  background-color: #5b5b5b;
+  font-size: 17px;
+  text-align: center;
+  line-height: 40px;
+  height: 40px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.sidebar-writebtn:hover{
+  background-color: #7e7e7e;
+  transition: .5s;
+}
+.sidebar-writebtn a{
+  color: #fff;
+}
+.notice-board, .board-board{
+  display: flex;
+  height: 40px;
+  line-height: 40px;
+}
+.notice-board-icon img, .board-board-icon img{
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin: 9px;
+}
+.notice-board-title, .board-board-title{
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 600;
+}
+.sidebar-notice ul li, .sidebar-board ul li{
+  list-style: none;
+  color: #333;
+  font-size: 17px;
+  margin: 13px 0 13px 43px;
+}
+.sidebar-notice ul li a, .sidebar-board ul li a{
+  color: #333;
+}
+
+/*list*/
+.list{
+  display: inline-block;
+  margin: 20px 0 0 25px;
+  width: 980px;
+}
+.list-name{
+  padding: 15px 0;
+  font-size: 33px;
+  font-weight: 600;
+  color: #333;
+}
+.list-Bar{
+  background-color: #5a5a5a;
+  height: 1px;
+}
+.list-title{
+  height: 45px;
+  line-height: 45px;
+  background-color: #ebeff4;
+}
+.list-title ul li{
+  display: inline-block;
+  list-style: none;
+  color: #333;
+  font-size: 17px;
+  font-weight: 600;
+  text-align: center;
+}
+.list-title ul li:nth-child(1){
+  width: 8%;
+}
+.list-title ul li:nth-child(2){
+  width: 55%;
+}
+.list-title ul li:nth-child(3){
+  width: 14%;
+}
+.list-title ul li:nth-child(4){
+  width: 12%;
+}
+.list-title ul li:nth-child(5){
+  width: 8%;
+}
+.list-Bar2{
+  background-color: #e5e5e5;
+  height: 1px;
+}
+.list-table{
+  border-collapse: collapse;
+  width: 100%;
+}
+.list-table tr{
+  height: 45px;
+  line-height: 45px;
+  font-size: 17px;
+  cursor: pointer;
+}
+.list-table tr:hover{
+  background-color: #e5e5e5;
+  transition: .5s;
+}
+table.list-table td{
+  border-bottom: 1px solid #e5e5e5;
+}
+.list-table-tr td:nth-child(1){
+  width: 8%;
+  text-align: center;
+}
+.list-table-tr td:nth-child(2){
+  width: 55%;
+  text-align: left;
+}
+.list-table-tr td:nth-child(3){
+  width: 14%;
+  text-align: center;
+}
+.list-table-tr td:nth-child(4){
+  width: 13%;
+  text-align: center;
+}
+.list-table-tr td:nth-child(5){
+  width: 9%;
+  text-align: center;
+}
+
+/*pages*/
+.pages{
+  display: block;
+  height: 135px;
+  margin-top: 50px;
+  text-align: center;
+}
+.pages a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 17px;
+  color: #333;
+}
+.page-num:hover{
+  border: 1px solid #5a5a5a;
+}
+.pages #on{
+  border: 1px solid #5a5a5a;
+}
+.pages a img{
+  width: 15px;
+  height: 15px;
+}
+
+
+/*footer*/
+
+.footer-cafename{
+  font-size: 14px;
+  font-weight: 600;
+  margin: 30px 5px;
+}
+
