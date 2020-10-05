@@ -91,13 +91,18 @@
     padding-left: 13px;
   }
   .join-joinbtn{
+    display: block;
     background-color: #5b5b5b;
+    border: none;
+    color:#fff;
     width: 210px;
     height: 45px;
+    margin: 0 auto;
     line-height: 45px;
     font-size: 20px;
+    font-weight: 300;
+    font-family: NanumSquare;
     text-align: center;
-    margin: 0 auto;
     margin-top: 30px;
     cursor: pointer;
   }
