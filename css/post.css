@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  body {
+    font-family: "NanumSquare", Arial, Helvetica, sans-serif;
+  }
+  .bar1, .bar3 {
+    background-color: #d9e1e5;
+    height: 5px;
+    width: 1980px;
+  }
+  .bar2 {
+    background-color: #f2f2f2;
+    height: 1px;
+    width: 1980px;
+  }
+  .bar4 {
+    background-color: #5b5b5b;
+    height: 1px;
+    width: 1980px;
+  }
+  .top, .top, .banner, .wrap, .container, .footer {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /*top*/
+  .top {
+    text-align: right;
+    height: 60px;
+    font-size: 14px;
+  }
+  .top-join, .top-login {
+    width: 75px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin: 15px 5px;
+    cursor: pointer;
+  }
+  .top-login {
+    display: inline-block;
+    background-color: #5b5b5b;
+    border-radius: 50px;
+  }
+  .top-login a {
+    color: #fff;
+  }
+  .top-join {
+    display: inline-block;
+    border: 1px solid #5b5b5b;
+    border-radius: 50px;
+    color: #5b5b5b;
+  }
+  .top-join a {
+    color: #5b5b5b;
+  }
+  .banner {
+    background: url(../src/banner.jpg);
+    height: 240px;
+  }
+  .banner-text {
+    font-size: 53px;
+    font-weight: 700;
+    color: #e8edf0;
+    line-height: 240px;
+    padding-left: 40px;
+    text-shadow: 4px 4px 7px #5b5b5b;
+  }
+  
+  .container{
+    display: flex;
+    margin-bottom: 200px;
+  }
+  /*sidebar*/
+  .sidebar{
+    display: inline-block;
+    width: 200px;
+    margin-top: 20px;
+  }
+  .sidebar-Bar1, .sidebar-Bar2, .sidebar-Bar3, .sidebar-Bar4{
+    border: 1px solid #5a5a5a;
+  }
+  .sidebar-bar1, .sidebar-bar2, .sidebar-bar3{
+    background-color: #e5e5e5;
+    height: 1px;
+  }
+  .user{
+    margin: 0 auto;
+  }
+  .user-pic{
+    width: 75px;
+    height: 75px;
+    border-radius: 25px;
+    background-color: #f2f2f2;
+    margin: 30px 65px;
+  }
+  .user-id{
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .sidebar-writebtn{
+    background-color: #5b5b5b;
+    font-size: 17px;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  .sidebar-writebtn:hover{
+    background-color: #7e7e7e;
+    transition: .5s;
+  }
+  .sidebar-writebtn a{
+    color: #fff;
+  }
+  .notice-board, .board-board{
+    display: flex;
+    height: 40px;
+    line-height: 40px;
+  }
+  .notice-board-icon img, .board-board-icon img{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 9px;
+  }
+  .notice-board-title, .board-board-title{
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .sidebar-notice ul li, .sidebar-board ul li{
+    list-style: none;
+    color: #333;
+    font-size: 17px;
+    margin: 13px 0 13px 43px;
+  }
+  .sidebar-notice ul li a, .sidebar-board ul li a{
+    color: #333;
+  }
+  
+  /*post*/
+  .post{
+      border: 1px solid #cccccc;
+      border-radius: 4px;
+      margin: 20px 0 0 25px;
+      padding: 45px;
+      width: 975px;
+  }
+  .post-title{
+      font-weight: 500;
+      font-size: 35px;
+      margin-bottom: 20px;
+  }
+  .post-userpic{
+      display: inline-block;
+  }
+  .post-userpic img{
+      width: 40px;
+      height: 40px;
+  }
+  .post-info{
+    display: inline-block;
+    padding-left: 10px;
+  }
+  .post-userid{
+      font-weight: 600;
+      font-size: 15px;
+      color: #333;
+  }
+  .post-date{
+    font-size: 15px;
+    color: #999999;
+    padding-top: 5px;
+  }
+  .sidebar-bar5{
+    background-color: #cccccc;
+    height: 1px;
+    margin: 20px 0 30px 0;
+  }
+  .sidebar-bar6{
+    background-color: #cccccc;
+    height: 1px;
+    margin: 20px 0;
+  }
+  .post-box{
+    font-size: 17px;
+    line-height: 35px;
+    padding-bottom: 100px;
+  }
+  .post-btn{
+    text-align: right;
+  }
+  .post-rewrite{
+    display: inline-block;
+    margin-right: 5px;
+  }
+  .post-rewrite a{
+    color: #333;
+    font-size: 13px;
+    border: 1px solid #333;
+    border-radius: 1px;
+    padding: 8px;
+  }
+  .post-delete{
+    display: inline-block;
+  }
+  .post-delete a{
+    color: #333;
+    font-size: 13px;
+    border: 1px solid #333;
+    border-radius: 1px;
+    padding: 8px;
+  }
+  .post-rewrite a:hover, .post-delete a:hover{
+    color: #fff;
+    transition: .5s;
+    background-color: #5b5b5b;
+  }
+  
+  /*footer*/
+  
+  .footer-cafename{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 30px 5px;
+  }
+  
+  

@@ -209,6 +209,9 @@ body {
 table.list-table td{
   border-bottom: 1px solid #e5e5e5;
 }
+.list-table-title a{
+  color: #333;
+}
 .list-table-tr td:nth-child(1){
   width: 8%;
   text-align: center;
