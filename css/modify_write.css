@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  body {
+    font-family: "NanumSquare", Arial, Helvetica, sans-serif;
+  }
+  .bar1, .bar3 {
+    background-color: #d9e1e5;
+    height: 5px;
+    width: 1980px;
+  }
+  .bar2 {
+    background-color: #f2f2f2;
+    height: 1px;
+    width: 1980px;
+  }
+  .bar4 {
+    background-color: #5b5b5b;
+    height: 1px;
+    width: 1980px;
+  }
+  .top, .top, .banner, .wrap, .container, .footer {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /*top*/
+  .top {
+    text-align: right;
+    height: 60px;
+    font-size: 14px;
+  }
+  .top-join, .top-login {
+    width: 75px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    margin: 15px 5px;
+    cursor: pointer;
+  }
+  .top-login {
+    display: inline-block;
+    background-color: #5b5b5b;
+    border-radius: 50px;
+  }
+  .top-login a {
+    color: #fff;
+  }
+  .top-join {
+    display: inline-block;
+    border: 1px solid #5b5b5b;
+    border-radius: 50px;
+    color: #5b5b5b;
+  }
+  .top-join a {
+    color: #5b5b5b;
+  }
+  .banner {
+    background: url(../src/banner.jpg);
+    height: 240px;
+  }
+  .banner-text {
+    font-size: 53px;
+    font-weight: 700;
+    color: #e8edf0;
+    line-height: 240px;
+    padding-left: 40px;
+    text-shadow: 4px 4px 7px #5b5b5b;
+  }
+  .banner-text a{
+    color: #e8edf0;
+  }
+  
+  /*container*/
+  .container{
+    margin-bottom: 60px;
+  }
+  .write-name{
+    padding: 60px 0 15px 0;
+    font-size: 33px;
+    font-weight: 600;
+    color: #333;
+  }
+  .write-Bar{
+    background-color: #5b5b5b;
+    height: 2px;
+    width: 1200px;
+  }
+  .write-title-title{
+      height: 40px;
+      width: 1185px;
+      font-size: 17px;
+      font-family: 'NanumSquare';
+      padding-left: 10px;
+      margin: 30px 0 15px 0;
+  }
+  .ck-editor__editable{
+      height: 500px;
+  }
+  .wirte-btn{
+    margin-top: 50px;
+    text-align: center;
+  }
+  .wirte-upload{
+    display: inline-block;
+  }
+  .wirte-upload a{
+    color: #fff;
+    font-size: 13px;
+    background: #5b5b5b;
+    border-radius: 1px;
+    padding: 10px 30px;
+  }
+  .wirte-cancel{
+    display: inline-block;
+  }
+  .wirte-cancel a{
+    color: #999999;
+    font-size: 13px;
+    border: 1px solid #999999;
+    border-radius: 1px;
+    padding: 10px 30px;
+    margin-right: 8px;
+  }
+
+
+  /*footer*/
+  
+  .footer-cafename{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 30px 5px;
+  }
+  
+  

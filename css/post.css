@@ -42,7 +42,7 @@
   }
   .top-login {
     display: inline-block;
-    background-color: #5b5b5b;
+    background-color:  #5b5b5b;
     border-radius: 50px;
   }
   .top-login a {
@@ -68,6 +68,9 @@
     line-height: 240px;
     padding-left: 40px;
     text-shadow: 4px 4px 7px #5b5b5b;
+  }
+  .banner-text a{
+    color: #e8edf0;
   }
   
   .container{
@@ -202,26 +205,21 @@
     margin-right: 5px;
   }
   .post-rewrite a{
-    color: #333;
+    color: #fff;
     font-size: 13px;
-    border: 1px solid #333;
+    background: #5b5b5b;
     border-radius: 1px;
-    padding: 8px;
+    padding: 10px 30px;
   }
   .post-delete{
     display: inline-block;
   }
   .post-delete a{
-    color: #333;
+    color: #999999;
     font-size: 13px;
-    border: 1px solid #333;
+    border: 1px solid #999999;
     border-radius: 1px;
-    padding: 8px;
-  }
-  .post-rewrite a:hover, .post-delete a:hover{
-    color: #fff;
-    transition: .5s;
-    background-color: #5b5b5b;
+    padding: 10px 30px;
   }
   
   /*footer*/
