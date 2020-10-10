@@ -69,6 +69,9 @@
     padding-left: 40px;
     text-shadow: 4px 4px 7px #5b5b5b;
   }
+  .banner-text a {
+    color: #e8edf0;
+  }
   
   .container{
     display: flex;
