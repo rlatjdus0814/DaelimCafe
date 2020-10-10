@@ -205,21 +205,22 @@
     margin-right: 5px;
   }
   .post-rewrite a{
-    color: #333;
-    font-size: 13px;
-    border: 1px solid #333;
-    border-radius: 1px;
-    padding: 8px;
+    color: #fff;
+  font-size: 13px;
+  background: #5b5b5b;
+  border-radius: 1px;
+  padding: 10px 30px;
   }
   .post-delete{
     display: inline-block;
   }
   .post-delete a{
-    color: #333;
-    font-size: 13px;
-    border: 1px solid #333;
-    border-radius: 1px;
-    padding: 8px;
+    color: #999999;
+  font-size: 13px;
+  border: 1px solid #999999;
+  border-radius: 1px;
+  padding: 10px 30px;
+  margin-right: 8px;
   }
   .post-rewrite a:hover, .post-delete a:hover{
     color: #fff;
